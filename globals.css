@@ -1,0 +1,18 @@
+
+/* global styles for Next.js shop */
+:root{--bg:#0b0b10;--card:#0f1720;--accent1:#7b2ff7;--accent2:#ff4fd8;--muted:#9aa1b2}
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter,system-ui,Arial;background:linear-gradient(180deg,#07070a 0%, #0b0b10 100%);color:#e6eef8}
+.container{max-width:1100px;margin:0 auto;padding:24px}
+.header{display:flex;align-items:center;justify-content:space-between;padding:18px 24px}
+.logo{height:56px}
+.hero{padding:48px 24px;text-align:center}
+.products-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;padding-bottom:48px}
+.card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.015));padding:18px;border-radius:14px;box-shadow:0 8px 30px rgba(10,10,30,0.6)}
+.card h4{margin:0 0 8px;color:#fff}
+.card p{margin:0 0 12px;color:var(--muted)}
+.price{font-weight:700;margin-bottom:12px}
+.actions{display:flex;gap:8px;align-items:center}
+.btn{display:inline-block;padding:8px 12px;border-radius:10px;background:transparent;border:1px solid rgba(255,255,255,0.06);color:#fff;cursor:pointer;text-decoration:none}
+.btn.primary{background:linear-gradient(90deg,var(--accent1),var(--accent2));border:0;color:#0b0b10}
+.footer{padding:28px;text-align:center;color:var(--muted);font-size:14px;background:transparent;border-top:1px solid rgba(255,255,255,0.02)}

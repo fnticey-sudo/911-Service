@@ -1,0 +1,30 @@
+[
+  {
+    "id": "fortnite-pack",
+    "name": "Fortnite Graphics Pack",
+    "price": 9.99,
+    "filename": "mods/fortnite-pack.zip",
+    "description": "High quality skins & HUD graphics (legal assets)."
+  },
+  {
+    "id": "gta-rp",
+    "name": "GTA RP Mods",
+    "price": 7.99,
+    "filename": "mods/gta-rp-Mods.zip",
+    "description": "Roleplay assets for FiveM servers (legal)."
+  },
+  {
+    "id": "discord-nitro",
+    "name": "Discord Nitro Style Pack",
+    "price": 5.99,
+    "filename": "mods/discord-nitro.zip",
+    "description": "Banners, emojis and Nitro-style elements."
+  },
+  {
+    "id": "roblox-EXT",
+    "name": "Roblox EXT Pack",
+    "price": 4.49,
+    "filename": "mods/roblox-EXT.zip",
+    "description": "Model packs and UI elements for Roblox creators."
+  }
+]
